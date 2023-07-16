@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chart": "^0.1.2",
+    "chart.js": "^4.3.0",
+    "sacss": "^1.1.0",
+    "scss": "^0.2.4"
+  }
+}

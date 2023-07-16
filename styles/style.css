@@ -1,0 +1,110 @@
+svg {
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+rect[title]{
+    background-color: black;
+    color: #959494;
+    
+}
+.right p{
+    transform: translateY(20px);
+}
+.right {
+    position: absolute;
+    
+    text-align: end;
+    top: 92px;
+    z-index: 10;
+    background-color: #fff;
+    left: 420px;
+    width: 550px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #959494;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top{
+        width: 100px;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        left: 390px;
+        color: #959494;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.left {
+    position: absolute;
+    top: 260px;
+    left: 300px;
+    z-index: 10;
+    width: 700px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+
+}
+.contain{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    display: flex;
+    width: 200px;
+    height: 20px;
+    align-items: center;
+    color: #959494;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 30px;
+}
+.spans :nth-child(1){
+    width: 20px;
+    height: 20px;
+    background-color: #EDEDED;
+}
+.spans :nth-child(2){
+    width: 20px;
+    height: 20px;
+    background-color: #ACD5F2;
+}
+.spans :nth-child(3){
+    width: 20px;
+    height: 20px;
+    background-color: #7FA8C9;
+}
+.spans :nth-child(4){
+    width: 20px;
+    height: 20px;
+    background-color: #527BA0;
+}
+.spans{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+}
+.spans :nth-child(5){
+    width: 20px;
+    height: 20px;
+    background-color: #254E77;
+}
+#graph-container {
+    display: flex;
+    width: 100px;
+    position: relative;
+}
